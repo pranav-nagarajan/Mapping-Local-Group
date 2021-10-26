@@ -23,7 +23,7 @@ for table in mcmc_args.data:
     if theory:
         table = 'Theory Tables/' + table
     else:
-        table = 'MCMC Tables/' + table
+        table = 'Data Tables/' + table
     lin_reg_tables.append(pd.read_csv(table))
 
 # Mean metallicities for each galaxy
